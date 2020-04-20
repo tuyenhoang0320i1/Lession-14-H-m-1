@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành: Tìm giá trị nhỏ nhất của mảng</title>
+</head>
+<body>
+<script>
+    let arr1 = [3, 5, 1, 8, -3, 7, 8];
+    let arr2 = [7, 12, 6, 9, 20, 56, 89];
+    let arr3 = [];
+    let arr4 = [0, 0, 0, 0, 0, 0];
+
+    function findMinValueArr1(arr1) {
+        let min = false;
+        if (arr1.length > 0) {
+            min = arr1[0];
+            for (let i = 0; i < arr1.length; i++) {
+                if (arr1[i] < min) {
+                    min = arr1[i];
+                }
+            }
+        }
+        return min;
+    }
+
+    function findMinValueArr2(arr2) {
+        let min = false;
+        if (arr2.length > 0) {
+            min = arr2[0];
+            for (let i = 0; i < arr2.length; i++) {
+                if (arr2[i] < min) {
+                    min = arr2[i];
+                }
+            }
+        }
+        return min;
+    }
+
+    function findMinValueArr3(arr3) {
+        let min = false;
+        if (arr3.length > 0) {
+            min = arr3[0];
+            for (let i = 0; i < arr3.length; i++) {
+                if (arr3[i] < min) {
+                    min = arr3[i];
+                }
+            }
+        }
+        return min;
+    }
+
+    function findMinValueArr4(arr4) {
+        let min = false;
+        if (arr4.length > 0) {
+            min = arr4[0];
+            for (let i = 0; i < arr4.length; i++) {
+                if (arr4[i] < min) {
+                    min = arr4[i];
+                }
+            }
+        }
+        return min;
+    }
+
+    document.write("Value min of arr1 is: " + findMinValueArr1(arr1) + "<br/>");
+    document.write("Value min of arr2 is: " + findMinValueArr2(arr2) + "<br/>");
+    document.write("Value min of arr3 is: " + findMinValueArr3(arr3) + "<br/>");
+    document.write("Value min of arr4 is: " + findMinValueArr4(arr4) + "<br/>");
+</script>
+</body>
+</html>
